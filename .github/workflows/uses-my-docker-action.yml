@@ -8,7 +8,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: ./hello-world-docker-action
+        uses: .
         with:
           who-to-greet: Mati
           
