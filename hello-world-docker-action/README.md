@@ -1,6 +1,9 @@
 # Hello world docker action
 
 This action prints "Hello World" or "Hello" + the name of a person to greet to the log.
+git update-index --chmod=+x entrypoint.sh
+git tag -a -m "My first action release" v3
+git push --follow-tags
 
 ## Inputs
 
